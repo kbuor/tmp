@@ -418,7 +418,7 @@ Nếu logic hiện tại bắt buộc `ClassifyExcelTypeStep` phải chạy, bac
 
 để worker tự classify lại thành `nkc`, `bctc`, `cdps` hoặc `excel`.
 
-Tuy nhiên bên em vẫn khuyến nghị fix code theo hướng defensive ở phương án 1 để tránh lỗi tương tự khi caller đã xác định sẵn `file_type`.
+Tuy nhiên bên mình vẫn khuyến nghị fix code theo hướng defensive ở phương án 1 để tránh lỗi tương tự khi caller đã xác định sẵn `file_type`.
 
 ---
 
