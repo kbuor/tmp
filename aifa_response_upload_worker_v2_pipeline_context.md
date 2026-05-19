@@ -1,14 +1,3 @@
-# Phản hồi AIFA - Kết quả verify image upload worker v2 và lỗi `classified_excel_type`
-
-**Dự án:** AIFA AWS to TPCloud/TPCOMS Migration  
-**Môi trường:** `aifa-dev`  
-**Ngày kiểm tra:** 2026-05-19  
-**Image liên quan:** `aifa-process-file-upload:v20260519-aifa-rebuild-v2`
-
----
-
-Anh ơi, bên em đã tiếp tục verify image worker v2 và test flow `upload_file` với file NKC.
-
 ## Kết quả tổng quan
 
 Các phần migration/runtime đã PASS:
@@ -433,9 +422,9 @@ Tuy nhiên bên em vẫn khuyến nghị fix code theo hướng defensive ở ph
 
 ---
 
-# Kết luận gửi AIFA
+# Kết luận
 
-Hiện tại bên em đã xác nhận các phần hạ tầng/migration đã đi qua:
+Hiện tại bên mình đã xác nhận các phần hạ tầng/migration đã đi qua:
 
 ```text
 Kubernetes worker image v2: OK
@@ -453,4 +442,4 @@ Lỗi còn lại hiện nằm ở source code Excel pipeline của image upload 
 'PipelineContext' object has no attribute 'classified_excel_type'
 ```
 
-Nhờ anh kiểm tra và rebuild lại image upload worker sau khi fix phần `PipelineContext`, `ClassifyExcelTypeStep`, và `excel_upload_pipeline.py` như đề xuất ở trên.
+Nhờ phía AIFA kiểm tra và rebuild lại image upload worker sau khi fix phần `PipelineContext`, `ClassifyExcelTypeStep`, và `excel_upload_pipeline.py` như đề xuất ở trên.
