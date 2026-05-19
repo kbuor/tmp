@@ -1,6 +1,6 @@
-# AIFA Dev on TPCOMS On-Premise — Tài liệu hiện trạng hạ tầng và hướng dẫn test end-to-end
+# AIFA Dev on TPCOMS - UAT-Ready Infrastructure
+# Tài liệu hiện trạng hạ tầng và hướng dẫn test end-to-end
 
-**Phiên bản tài liệu:** 1.0  
 **Ngày lập:** 19/05/2026  
 **Môi trường:** `aifa-dev`  
 **Nền tảng triển khai:** TPCOMS On-Premise Cloud, VMware Cloud Director, Kubernetes, Harbor, PostgreSQL, Redis, RabbitMQ, MinIO  
